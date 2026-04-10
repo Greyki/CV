@@ -1,0 +1,27 @@
+body {
+    background-color: #1d3f5ee5;
+}
+
+.contenedor {
+    width: 700px;
+    height: 800px;
+    margin: 50px auto;
+    border: 10px solid rgb(31, 31, 31);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.cajaNombre {
+    width: 300px;
+    height: 80px;
+    border: 7px solid rgb(31, 31, 31);
+    position: relative;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.nombre {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200px;
+    text-align: justify;
+}
