@@ -2,10 +2,15 @@ body {
     background-color: rgb(51, 89, 100);
 }
 
+span {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
 .contenedor {
     background-color: rgb(33, 68, 78);
     width: 700px;
-    height: 800px;
+    height: 760px;
     margin: 50px auto;
     border: 10px solid rgb(31, 31, 31);
     border-radius: 5px;
@@ -13,9 +18,9 @@ body {
 }
 
 .contenedorInterior {
-    background-color: rgb(33, 68, 78);
     width: 700px;
-    height: 300px;
+    height: 340px;
+    overflow: auto;
 }
 
 .cajaNombre {
@@ -36,17 +41,32 @@ body {
     font-style: italic;
 }
 
+.cajaFoto {
+    position: relative;
+    width: 300px;
+    height: 70px;
+    position: relative;
+}
+
+.foto {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    margin-left: 470px;
+}
+
 .separacion {
-    height: 20px;
+    height: 15px;
 }
 
 .cajaDesc {
     background-color: rgba(45, 72, 80, 0.767);;
-    width: 645px;
+    width: 685px;
     height: 120px;
     border: 7px solid rgb(31, 31, 31);
     position: relative;
     border-radius: 5px;
+    box-shadow: 7px 7px 2px rgb(0, 0, 0);
 }
 
 .desc {
@@ -54,17 +74,17 @@ body {
     font-size: 18px;
     text-align: justify;
     font-weight: 500;
-    margin-left: 13px;
-    margin-right: 13px;
+    margin-left: 11px;
+    margin-right: 11px;
 }
 
 .habilidades {
     background-color: rgba(45, 72, 80, 0.767);;
-    width: 345px;
+    width: 330px;
     height: 150px;
     border: 7px solid rgb(31, 31, 31);
-    position: relative;
     border-radius: 5px;
+    float: left;
 }
 
 .titulo {
@@ -76,15 +96,81 @@ body {
 
 .lista {font-family: 'Montserrat', sans-serif;
     font-size: 13px;
-    text-align: justify;
+    text-align: left;
     font-weight: 500;
 }
 
 .educacion {
     background-color: rgba(45, 72, 80, 0.767);;
-    width: 345px;
+    width: 330px;
     height: 150px;
     border: 7px solid rgb(31, 31, 31);
-    position: absolute;
     border-radius: 5px;
+    float: right;
 }
+
+.certificados {
+    background-color: rgba(45, 72, 80, 0.767);;
+    width: 330px;
+    height: 150px;
+    border: 7px solid rgb(31, 31, 31);
+    border-radius: 5px;
+    float: right;
+    margin-top: 10px;
+}
+
+.experiencia {
+    background-color: rgba(45, 72, 80, 0.767);;
+    width: 330px;
+    height: 150px;
+    border: 7px solid rgb(31, 31, 31);
+    border-radius: 5px;
+    float: left;
+    margin-top: 10px;
+}
+
+.cajaContactos {
+    background-color: rgba(45, 72, 80, 0.767);;
+    width: 685px;
+    height: 100px;
+    border: 7px solid rgb(31, 31, 31);
+    border-radius: 5px;
+    float: left;
+    margin-top: 10px;
+    overflow: auto;
+}
+
+.contacto {
+    float: left;
+    margin-top: 30px;
+}
+
+.cajaIconos {
+    position: absolute;
+    margin-top: 14px;
+    width: 685px;
+    height: 100px;
+    overflow: auto;
+}
+
+.iconoCorreo {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 120px;
+}
+
+.iconoTelefono {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 200px;
+}
+
+.iconoSitioWeb {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 165px;
+}
+
