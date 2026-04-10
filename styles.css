@@ -12,8 +12,15 @@ body {
     padding: 10px;
 }
 
+.contenedorInterior {
+    background-color: rgb(33, 68, 78);
+    width: 700px;
+    height: 300px;
+}
+
 .cajaNombre {
     background-color: rgba(45, 72, 80, 0.767);
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
     width: 300px;
     height: 70px;
     border: 7px solid rgb(31, 31, 31);
@@ -24,6 +31,60 @@ body {
 
 .nombre {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
+    font-size: 26px;
     text-align: center;
+    font-style: italic;
+}
+
+.separacion {
+    height: 20px;
+}
+
+.cajaDesc {
+    background-color: rgba(45, 72, 80, 0.767);;
+    width: 645px;
+    height: 120px;
+    border: 7px solid rgb(31, 31, 31);
+    position: relative;
+    border-radius: 5px;
+}
+
+.desc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 500;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.habilidades {
+    background-color: rgba(45, 72, 80, 0.767);;
+    width: 345px;
+    height: 150px;
+    border: 7px solid rgb(31, 31, 31);
+    position: relative;
+    border-radius: 5px;
+}
+
+.titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    text-align: center;
+}
+
+.lista {font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.educacion {
+    background-color: rgba(45, 72, 80, 0.767);;
+    width: 345px;
+    height: 150px;
+    border: 7px solid rgb(31, 31, 31);
+    position: absolute;
+    border-radius: 5px;
 }
