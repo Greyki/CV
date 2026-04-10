@@ -3,6 +3,7 @@ body {
 }
 
 .contenedor {
+    background-color: rgb(33, 68, 78);
     width: 700px;
     height: 800px;
     margin: 50px auto;
@@ -12,8 +13,9 @@ body {
 }
 
 .cajaNombre {
+    background-color: rgba(45, 72, 80, 0.767);
     width: 300px;
-    height: 80px;
+    height: 70px;
     border: 7px solid rgb(31, 31, 31);
     position: relative;
     padding: 20px;
@@ -22,6 +24,6 @@ body {
 
 .nombre {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 200px;
-    text-align: justify;
+    font-size: 25px;
+    text-align: center;
 }
